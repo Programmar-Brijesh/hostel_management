@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#nav-hover {
+  color: white;
+  font-weight: bolder;
+}
+
+#nav-hover:hover {
+  color: #d4a937;
+  font-weight: bolder;
+}
+.notice-bg {
+  background-color: #0d2b59;
+  padding: 6px;
+  color: white;
+}
+.notice-object {
+  background-color: grey;
+  padding: 5px;
+  margin: 0;
+}
+:root {
+  --csjm-navy: #0d2b59;
+  --csjm-gold: #d4a937;
+  --csjm-light: #f7f8fa;
+  --text-dark: #1f2937;
+}
+
+.eligibility-card {
+  border: 1px solid rgba(13, 43, 89, 0.08);
+  border-radius: 0.75rem;
+  background: linear-gradient(180deg, #ffffff 0%, var(--csjm-light) 100%);
+  box-shadow: 0 6px 18px rgba(13, 43, 89, 0.06);
+  padding: 1.25rem;
+}
+
+.badge-priority {
+  background: var(--csjm-gold);
+  color: #0b1a33;
+  font-weight: 600;
+}
+
+.check {
+  color: var(--csjm-navy);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.priority-list .list-group-item {
+  border: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.form-container {
+  width: 565px;
+  height: 785px;
+  margin: 30px auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  overflow-y: auto; /* vertical scroll only */
+  overflow-x: hidden; /* no horizontal scroll */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-hostel {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.highlight {
+  color: #0056b3;
+}
+
+.about-hostel p {
+  font-size: 16px;
+  line-height: 1.8;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease-in-out;
+}
+
+.about-hostel p i {
+  color: #0056b3;
+  font-size: 20px;
+}
+
+/* Fade-in animation with delay */
+.about-hostel p.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about-hostel p.delay-1 {
+  transition-delay: 0.3s;
+}
+
+.about-hostel p.delay-2 {
+  transition-delay: 0.6s;
+}
+
+.animate-section .animate-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease-out;
+}
+
+.animate-section .animate-item.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animate-section .animate-item {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+}
+
+.animate-section .animate-item.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animate-section .animate-item {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+}
+
+.animate-section .animate-item.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fee-card i {
+    color: #0056b3;
+}
+
+.animate-section .animate-item {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+}
+
+.animate-section .animate-item.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.quick-enquiry-btn:hover {
+    background-color: #004080;
+}
+
+.contact-info h5, .emergency-contact h5, .social-links h5, .contact-form h5 {
+    color: #0056b3;
+}
+
+
+@media (max-width: 576px) {
+  .eligibility-card {
+    padding: 1rem;
+  }
+}
